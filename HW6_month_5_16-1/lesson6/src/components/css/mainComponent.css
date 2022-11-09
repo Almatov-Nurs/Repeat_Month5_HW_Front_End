@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.links a {
+    text-decoration: none;
+    color: #000;
+}
+.links i {
+    height: 20px;
+    border: 1px solid;
+}

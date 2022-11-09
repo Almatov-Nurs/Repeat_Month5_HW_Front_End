@@ -1,0 +1,49 @@
+.dish {
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+}
+.left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+li img {
+    width: 50px;
+    height: 50px;
+}
+.right {
+    display: flex;
+    gap: 30px;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #fff;
+}
+.modal span {
+    display: flex;
+    gap: 10px;
+}
+.active {
+    display: none;
+}
